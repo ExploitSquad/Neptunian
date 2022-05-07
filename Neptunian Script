@@ -215,11 +215,8 @@ end
 wait(1)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GelatekWasTaken/GelatekV2/main/LoadLibrary.lua"))()
 -- its open source so you can always change the link.
-wait(1)
 --- Did actually rework heavily away from original neptunian, and the non-rework neptunian. --NoobyGames12
 --- Was supposed to be for the770zone, or VengefulProgram.
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GelatekWasTaken/GelatekV2/main/LoadLibrary.lua"))()
--- its open source so you can always change the link.
 
 warn'Neptune/Neptunian V'
 warn[[Absolutely.
@@ -5950,7 +5947,7 @@ Stats.Parent=Character
 local Atk=Instance.new("NumberValue")
 Atk.Name="Damage"
 Atk.Parent=Stats
-Atk.Value=0
+Atk.Value=50
 local Def=Instance.new("NumberValue")
 Def.Name="Defense"
 Def.Parent=Stats
